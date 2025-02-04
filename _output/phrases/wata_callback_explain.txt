@@ -1,0 +1,1 @@
+Please add this {link} URL in your Wata.pro merchant panel to receive payment notifications. The webhook will receive notifications about successful and failed payments. 

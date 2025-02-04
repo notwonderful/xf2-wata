@@ -1,0 +1,10 @@
+<xf:textboxrow name="options[token]" value="{$profile.options.token}"
+	label="{{ phrase('wata_token') }}"
+	hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<hr class="formRowSep" />
+
+<xf:formrow controlid="element">
+<div class="formRow-explain">{{ phrase('wata_callback_explain', {'link': $xf.options.boardUrl . '/payment_callback.php?_xfProvider=' . $profile.provider_id}) }}</div>
+</xf:formrow>

@@ -1,0 +1,37 @@
+{
+    "legacy_addon_id": "",
+    "title": "Wata Payment Profile",
+    "description": "Wata payment profile for XenForo 2+",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "Nik",
+    "dev_url": "https://github.com/notwonderful",
+    "faq_url": "https://wata.pro/api",
+    "support_url": "https://github.com/notwonderful/xf2-wata",
+    "extra_urls": {
+        "Wata.pro": "https://wata.pro"
+    },
+    "require": {
+        "php": [
+            "8.0",
+            "PHP 8.0+"
+        ],
+        "XF": [
+            2020070,
+            "XenForo 2.2.0+"
+        ],
+        "php-ext/json": [
+            "*",
+            "JSON extension"
+        ],
+        "php-ext/openssl": [
+            "*",
+            "OpenSSL extension"
+        ],
+        "php-ext/curl": [
+            "*",
+            "cURL extension"
+        ]
+    },
+    "icon": "logo.png"
+}
